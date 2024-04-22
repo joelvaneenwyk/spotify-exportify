@@ -2,7 +2,7 @@ FROM node:18.18-alpine
 
 COPY . /
 
-RUN yarn install
+RUN yarn install && yarn cache clean
 
 EXPOSE 3000
 
