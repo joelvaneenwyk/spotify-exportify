@@ -1,0 +1,11 @@
+version: "0.2"
+ignorePaths: []
+dictionaryDefinitions:
+  - name: spotify-exportify
+    path: ./.vscode/cspell-spotify-exportify.dict
+    addWords: true
+dictionaries:
+  - spotify-exportify
+words: []
+ignoreWords: []
+import: []
