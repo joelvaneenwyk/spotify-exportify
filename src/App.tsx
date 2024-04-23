@@ -12,7 +12,7 @@ import Logout from "components/Logout"
 
 function App() {
   let view
-  let key = new URLSearchParams(window.location.hash.substring(1))
+  const key = new URLSearchParams(window.location.hash.substring(1))
 
   if (getQueryParam('spotify_error') !== '') {
     view = <div id="spotifyErrorMessage" className="lead">
